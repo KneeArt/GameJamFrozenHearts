@@ -22,10 +22,12 @@
   },
   "name":"FrozenHeartsJam",
   "resources":[
+    {"id":{"name":"BlockObject","path":"objects/BlockObject/BlockObject.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"Test","path":"sprites/Test/Test.yy",},},
+    {"id":{"name":"TestObject","path":"sprites/TestObject/TestObject.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

@@ -4,5 +4,5 @@ MoveSpeed = 2;
 
 if (global.pause == false)
 {
-	move_and_collide(HorSpeed*MoveSpeed, VerSpeed*MoveSpeed, ColMap )
+	move_and_collide(HorSpeed*MoveSpeed, VerSpeed*MoveSpeed, ColMap & BlockObject )
 }
