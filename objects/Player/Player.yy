@@ -12,8 +12,8 @@
   "name":"Player",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"CharacterSprite",
+    "path":"folders/Objects/CharacterSprite.yy",
   },
   "parentObjectId":null,
   "persistent":true,

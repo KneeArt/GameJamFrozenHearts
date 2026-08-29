@@ -1,12 +1,10 @@
-function DrawDialogue (_Messages)
+function WriteDialogue (_Struc)
 {
-    if (instance_exists(DialogueObj)) return
+    if (instance_exists(ObjDialogue)) exit
         
 
-    var _inst = instance_create_depth(0,0,0,DialogueObj)
-    
-    _inst.ImportedDialogue = _Messages
-    _inst.CurrentLine = 0
-    
+    var _inst = instance_create_depth(0,0,0,ObjDialogue)
+    _inst.Message = _Struc
+    _inst.CurrentLine = 0 
     
 }

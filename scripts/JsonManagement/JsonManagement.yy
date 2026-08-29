@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Keybinding",
+  "%Name":"JsonManagement",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Keybinding",
+  "name":"JsonManagement",
   "parent":{
     "name":"FrozenHeartsJam",
     "path":"FrozenHeartsJam.yyp",
