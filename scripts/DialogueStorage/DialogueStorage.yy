@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Script1",
+  "%Name":"DialogueStorage",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Script1",
+  "name":"DialogueStorage",
   "parent":{
     "name":"FrozenHeartsJam",
     "path":"FrozenHeartsJam.yyp",

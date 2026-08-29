@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"DialogueFunc",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"DialogueFunc",
+  "parent":{
+    "name":"FrozenHeartsJam",
+    "path":"FrozenHeartsJam.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

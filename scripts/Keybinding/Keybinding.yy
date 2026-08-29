@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Keybinding",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Keybinding",
+  "parent":{
+    "name":"FrozenHeartsJam",
+    "path":"FrozenHeartsJam.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
