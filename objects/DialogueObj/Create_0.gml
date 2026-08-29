@@ -2,7 +2,7 @@ ImportedDialogue = []
 CurrentLine = -1
 CurrentMessage = ""
 CurrentChar = 0
-TypeSpeed = 0.5
+TypeSpeed = 0.1
 LeftSprite = undefined
 RightSprite = undefined
 

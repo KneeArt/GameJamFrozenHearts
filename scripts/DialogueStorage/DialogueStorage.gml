@@ -6,7 +6,7 @@ Start = [
     left: undefined, right: undefined},
     
     {speaker: "Unkown", 
-    msg:"It dragged itself against the walls like a massive beast,", 
+    msg:"It dragged itself against the walls like a massive beast.", 
     left: undefined, right: undefined},
     
     {speaker: "Unkown", msg:"At this cold morning you have one objective.", 

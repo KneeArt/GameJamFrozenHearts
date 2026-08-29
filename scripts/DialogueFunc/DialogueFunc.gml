@@ -9,5 +9,4 @@ function DrawDialogue (_Messages)
     _inst.CurrentLine = 0
     
     
-    
 }
