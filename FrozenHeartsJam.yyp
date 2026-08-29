@@ -18,6 +18,7 @@
     {"$GMFolder":"","%Name":"PlayerBust","folderPath":"folders/Sprite/DrawnArt/PlayerBust.yy","name":"PlayerBust","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scenes","folderPath":"folders/Sprite/DrawnArt/Scenes.yy","name":"Scenes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"SisterBust","folderPath":"folders/Sprite/DrawnArt/SisterBust.yy","name":"SisterBust","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"SpriteArt","folderPath":"folders/Sprite/SpriteArt.yy","name":"SpriteArt","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
