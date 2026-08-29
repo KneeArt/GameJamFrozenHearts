@@ -15,8 +15,8 @@
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprite","folderPath":"folders/Sprite.yy","name":"Sprite","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"DrawnArt","folderPath":"folders/Sprite/DrawnArt.yy","name":"DrawnArt","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Scenes","folderPath":"folders/Sprite/DrawnArt/Scenes.yy","name":"Scenes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"PlayerBust","folderPath":"folders/Sprite/DrawnArt/PlayerBust.yy","name":"PlayerBust","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Scenes","folderPath":"folders/Sprite/DrawnArt/Scenes.yy","name":"Scenes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"SisterBust","folderPath":"folders/Sprite/DrawnArt/SisterBust.yy","name":"SisterBust","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
@@ -32,6 +32,7 @@
   "resources":[
     {"id":{"name":"Base","path":"fonts/Base/Base.yy",},},
     {"id":{"name":"Font2","path":"fonts/Font2/Font2.yy",},},
+    {"id":{"name":"testingforrepo","path":"fonts/testingforrepo/testingforrepo.yy",},},
     {"id":{"name":"BlockObject","path":"objects/BlockObject/BlockObject.yy",},},
     {"id":{"name":"DialogueObj","path":"objects/DialogueObj/DialogueObj.yy",},},
     {"id":{"name":"DialogueSprite","path":"objects/DialogueSprite/DialogueSprite.yy",},},
