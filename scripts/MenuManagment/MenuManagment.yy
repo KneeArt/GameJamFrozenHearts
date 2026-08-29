@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"MenuManagment",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"MenuManagment",
+  "parent":{
+    "name":"FrozenHeartsJam",
+    "path":"FrozenHeartsJam.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

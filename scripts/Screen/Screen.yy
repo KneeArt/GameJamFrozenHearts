@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Screen",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Screen",
+  "parent":{
+    "name":"FrozenHeartsJam",
+    "path":"FrozenHeartsJam.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

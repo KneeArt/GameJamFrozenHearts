@@ -12,6 +12,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"TileMaps","folderPath":"folders/TileMaps.yy","name":"TileMaps","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"CharacterSprite","folderPath":"folders/Objects/CharacterSprite.yy","name":"CharacterSprite","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -42,11 +43,14 @@
     {"id":{"name":"BlockObject","path":"objects/BlockObject/BlockObject.yy",},},
     {"id":{"name":"ObjDialogue","path":"objects/ObjDialogue/ObjDialogue.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
+    {"id":{"name":"Basement1","path":"rooms/Basement1/Basement1.yy",},},
     {"id":{"name":"House1stFlor","path":"rooms/House1stFlor/House1stFlor.yy",},},
     {"id":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
     {"id":{"name":"DialogueFunc","path":"scripts/DialogueFunc/DialogueFunc.yy",},},
     {"id":{"name":"DialogueStorage","path":"scripts/DialogueStorage/DialogueStorage.yy",},},
     {"id":{"name":"JsonManagement","path":"scripts/JsonManagement/JsonManagement.yy",},},
+    {"id":{"name":"MenuManagment","path":"scripts/MenuManagment/MenuManagment.yy",},},
+    {"id":{"name":"Screen","path":"scripts/Screen/Screen.yy",},},
     {"id":{"name":"_PlayerHappy","path":"sprites/_PlayerHappy/_PlayerHappy.yy",},},
     {"id":{"name":"_PlayerNervous","path":"sprites/_PlayerNervous/_PlayerNervous.yy",},},
     {"id":{"name":"_PlayerNeutral","path":"sprites/_PlayerNeutral/_PlayerNeutral.yy",},},
@@ -56,8 +60,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
+    {"roomId":{"name":"Basement1","path":"rooms/Basement1/Basement1.yy",},},
     {"roomId":{"name":"House1stFlor","path":"rooms/House1stFlor/House1stFlor.yy",},},
+    {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
