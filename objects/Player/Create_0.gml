@@ -1,2 +1,3 @@
 ColMap = layer_tilemap_get_id("Collisions")
-Number = 0
+MoveSpeed = 2;
+RunSpeed = 1

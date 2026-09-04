@@ -1,0 +1,1 @@
+text = [ "A simple silver ring"]
