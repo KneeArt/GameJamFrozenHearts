@@ -4,28 +4,17 @@ HorSpeed = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 move_and_collide(HorSpeed*MoveSpeed, VerSpeed*MoveSpeed, ColMap & BlockObject, undefined,undefined, undefined,
 MoveSpeed, MoveSpeed )
 
-if (keyboard_check(vk_shift) and MoveSpeed < 3) {
-    MoveSpeed = 4
+if (keyboard_check(vk_shift) and MoveSpeed < 4) {
+    MoveSpeed += 1
 }
-else {
-    MoveSpeed = 2
-	
-}
+else {MoveSpeed = 2}
 
 if (VerSpeed != 0 or HorSpeed != 0) {
     
-    if (HorSpeed > 0) {
-    	sprite_index = Spr_PlayerRight
-    }
-	else if (HorSpeed < 0) {
-    	sprite_index = Spr_PlayerLeft
-    }
-    else if (VerSpeed < 0) {
-    	sprite_index = Spr_PlayerBack
-    }
-	else if (VerSpeed > 0) {
-    	sprite_index = Spr_PlayerFowards
-    }
+    if (HorSpeed > 0) { sprite_index = Spr_PlayerRight }
+	else if (HorSpeed < 0) { sprite_index = Spr_PlayerLeft }
+    else if (VerSpeed < 0) {sprite_index = Spr_PlayerBack }
+	else if (VerSpeed > 0) {sprite_index = Spr_PlayerFowards }
 }
 if (VerSpeed = 0 and HorSpeed = 0) 
 {
