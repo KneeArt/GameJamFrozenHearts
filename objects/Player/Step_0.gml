@@ -36,9 +36,3 @@ if (VerSpeed = 0 and HorSpeed = 0)
 }
 
 // Interaction Funky System
-
-if (place_meeting(x, y, Interactable) and keyboard_check(vk_enter)) {
-	
-    WriteDialogue(other.Start)
-    
-}
