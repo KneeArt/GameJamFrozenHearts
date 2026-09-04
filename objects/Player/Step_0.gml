@@ -24,4 +24,13 @@ if (VerSpeed = 0 and HorSpeed = 0)
     else if (sprite_index == Spr_PlayerBack) {sprite_index = Spr_IdleUp}
 }
 
+if (CanInteract and instance_number(DreamCatcher) <1) {
+    
+    instance_create_depth( x, y-18, depth, DreamCatcher)
+	
+}
+else if (CanInteract = false) {
+    instance_destroy(DreamCatcher)
+	
+}
 // Interaction Funky System
