@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"ObjDialogue",
+  "%Name":"WallObject",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"ObjDialogue",
+  "name":"WallObject",
   "overriddenProperties":[],
   "parent":{
-    "name":"CharacterSprite",
-    "path":"folders/Objects/CharacterSprite.yy",
+    "name":"Objects",
+    "path":"folders/Objects/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
-  "spriteId":null,
+  "solid":true,
+  "spriteId":{
+    "name":"TestObject",
+    "path":"sprites/TestObject/TestObject.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

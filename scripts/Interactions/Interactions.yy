@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Interactions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Interactions",
+  "parent":{
+    "name":"FrozenHeartsJam",
+    "path":"FrozenHeartsJam.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

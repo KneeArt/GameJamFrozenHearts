@@ -5,6 +5,7 @@ function WriteDialogue (_Struc)
 
     var _inst = instance_create_depth(0,0,0,ObjDialogue)
     _inst.Message = _Struc
-    _inst.CurrentLine = 0 
+    _inst.CurrentLine = 0
+    
     
 }

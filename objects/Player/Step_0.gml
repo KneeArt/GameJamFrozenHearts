@@ -1,7 +1,7 @@
 VerSpeed = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 HorSpeed = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 
-move_and_collide(HorSpeed*MoveSpeed, VerSpeed*MoveSpeed, ColMap & BlockObject, undefined,undefined, undefined,
+move_and_collide(HorSpeed*MoveSpeed, VerSpeed*MoveSpeed, (WallObject and Interactable), undefined,undefined, undefined,
 MoveSpeed, MoveSpeed )
 
 if (keyboard_check(vk_shift) and MoveSpeed < 4) {
@@ -11,10 +11,11 @@ else {MoveSpeed = 2}
 
 if (VerSpeed != 0 or HorSpeed != 0) {
     
-    if (HorSpeed > 0) { sprite_index = Spr_PlayerRight }
-	else if (HorSpeed < 0) { sprite_index = Spr_PlayerLeft }
-    else if (VerSpeed < 0) {sprite_index = Spr_PlayerBack }
-	else if (VerSpeed > 0) {sprite_index = Spr_PlayerFowards }
+    if (HorSpeed > 0) { sprite_index = Spr_PlayerRight facing = 1 }
+	else if (HorSpeed < 0) { sprite_index = Spr_PlayerLeft facing = 3 }
+    else if (VerSpeed < 0) {sprite_index = Spr_PlayerBack facing = 2}
+	else if (VerSpeed > 0) {sprite_index = Spr_PlayerFowards facing = 4}
+    
 }
 if (VerSpeed = 0 and HorSpeed = 0) 
 {
@@ -24,13 +25,8 @@ if (VerSpeed = 0 and HorSpeed = 0)
     else if (sprite_index == Spr_PlayerBack) {sprite_index = Spr_IdleUp}
 }
 
-if (CanInteract and instance_number(DreamCatcher) <1) {
-    
-    instance_create_depth( x, y-18, depth, DreamCatcher)
-	
-}
-else if (CanInteract = false) {
-    instance_destroy(DreamCatcher)
-	
-}
+
+show_debug_message(facing)
 // Interaction Funky System
+
+
